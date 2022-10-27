@@ -1,0 +1,1211 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: arial;
+    background-image: url(tombstone-1920.jpg);
+    background-position: center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+}
+
+/*HEADER*/
+header
+{
+    width: 100%;
+    padding: 30px;
+    background: #0005;
+}
+a
+{
+    text-decoration: none;
+}
+li
+{
+    list-style: none;
+}
+nav
+{
+   float: right; 
+}
+nav ul
+{
+    display: inline-flex;
+    margin-right: 30px;
+}
+nav ul li   
+{
+   margin:  0px 30px 0px 0px;
+    padding: 5px
+}
+nav ul li a
+{
+    color: whitesmoke;
+}
+nav ul li a:hover
+{
+    background: azure;
+    padding: 20px;
+    cursor: pointer;
+    color: black;
+}
+/*ACTIVE*/
+
+.active
+{
+    background: coral;
+    color: whitesmoke;
+    padding: 15px; 
+}
+
+/*LOGO*/
+#logo
+{
+    color: orangered;
+    font-family: cursive;
+    font-size: 30px;
+    margin-left: 30px;
+    padding: 10px;
+}
+#logo:hover
+{
+    color: whitesmoke;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+/*COVER*/
+.cover
+{
+    width: 80%;
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cover h1
+{
+    color: coral;
+   position: absolute;
+    left: 25%;
+    top: 25%;
+    font-weight: 300;
+    font-family: cursive, sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+.cover h1:hover
+{
+    color: whitesmoke;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cover p
+{
+    color: whitesmoke;
+   position: absolute;
+    top: 35%;
+    left: 10%;
+    max-width: 80%;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 1.15rem;
+    
+}
+
+.cover .button
+{
+    color: whitesmoke;
+    background: coral;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.cover .button a
+{
+   color: black;
+    text-transform: uppercase;
+}
+
+.cover .button:hover
+{
+    padding: 15px;
+    background: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+footer
+{
+    position: relative;
+    bottom: 0%;
+    background: #000;
+    width: 100%;
+    height: 20vh;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    align-content: center;    
+}
+
+footer #logo
+{
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+}
+footer #logo a
+{
+    color: coral;
+}
+footer #logo a:hover
+{
+    color: whitesmoke;
+    font-size: 40px;
+    transition: 0.5s ease;
+}
+
+footer .copy-right
+{
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    color: aliceblue
+}
+
+footer .comment
+{
+    text-align: center;
+}
+footer .comment h2
+{
+    font-size: 15px;
+    margin: 0px 0px 3px 0px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+footer .comment input
+{
+    margin: 0px 0px 2px 0px;
+    
+}
+footer .comment .send
+{
+    padding: 0px 0px 20px 0px
+}
+footer .comment button
+{
+    text-align: left;
+    margin-right: 33%;
+    padding: 4px;
+    background: coral;
+    border-radius: 4px;
+    border: none;
+    
+}
+footer .comment button a
+{
+    color: whitesmoke;
+}
+
+footer .comment button:hover
+{
+    background: orangered;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+/*CONTACT PAGE*/
+
+#contact-page
+{
+    width: 80%;
+    margin: 0 auto;
+    height: 70vh;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+}
+
+#contact-page .social-media
+{
+    width:30%;
+    margin: 0 auto;
+    position: absolute;
+    top: 17%;
+}
+
+#contact-page .social-media a
+{
+    display: block;
+    color: whitesmoke;
+    margin: 0px 0px 10px 0px;
+    padding: 5px;
+    font-size: 30px;
+    
+}
+#contact-page .social-media .fa
+{
+    margin: 0px 20px 0px 0px;
+}
+#contact-page .social-media h3
+{
+    color: lightskyblue;
+    margin: 15px 0px;
+    padding: 5px;
+    font-size: 25px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+#contact-page .social-media a:hover
+{
+    color: coral;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+
+/*OFFICIAL*/
+#contact-page .official
+{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    right: 20%;
+    top: 30%;
+}
+#contact-page .official input
+{
+    margin: 0px 0px 10px 0px;
+    padding: 10px
+}
+#contact-page .official .send
+{
+    padding: 10px 10px 40px;
+    border-radius: 4px;
+}
+#contact-page .official button
+{
+    padding: 9px;
+    background: coral;
+    border-radius: 4px;
+    margin-right: 35%;
+    border: none;
+}
+#contact-page .official button a
+{
+    color:whitesmoke;
+}
+#contact-page .official button:hover
+{
+    background: orangered;
+    padding: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#contact-page .official h3
+{
+    color: lightskyblue;
+    margin: 15px 0px;
+    padding: 5px;
+    font-size: 25px;
+    font-family: monospace;
+    text-transform: uppercase
+}
+
+
+
+          /*ENTERTAINMENT PAGE*/
+
+
+#entertainment
+{
+    width: 100%;
+    height: 100%;
+    background: white;
+        
+}
+                
+
+          /*IMAGE GALLERY*/
+
+#entertainment .photo
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+
+#entertainment .photo-gallery img
+{
+    width:300px;
+    height: 450px;
+    margin: 10px;
+}
+#entertainment .photo-gallery h2
+{
+    color: whitesmoke;
+    position: absolute;
+    top:15%;
+    left: 5%;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px;
+    border-bottom: 3px solid lightskyblue;
+    border-right: 3px solid lightskyblue;
+}
+
+#entertainment .photo h4
+{
+    color: black;
+    margin: 0px 0px 10px 10px;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+#entertainment .photo-gallery img:hover
+{
+    width:320px;
+    height: 470px;
+    background: #0005;
+    box-shadow: 0px 0px 10px;
+    transition: 0.5s;
+}
+
+
+               /*VIDEO GALLERY*/
+
+
+#entertainment .vid-gallery video
+{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 10px;
+   
+}
+
+#entertainment .vid-gallery .vid
+{
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    margin-top: 3%;
+    justify-items: center;
+}
+
+
+#entertainment .vid-gallery h5
+{
+    color:black;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 200;
+    position: relative;
+    left: 10%;
+    width: 20%;
+    text-align: center;
+    border-bottom: 3px solid whitesmoke;
+    border-right: 3px solid whitesmoke;
+    padding: 10px;
+    box-shadow: 0px 0px 10px;
+}
+
+#entertainment .vid-gallery video:hover
+{
+    width: 420px;
+    height: 420px;
+    background: #000;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             /*MEDIA QUERRY*/
+@media only screen and (max-width: 1000px)
+{
+       /*HEADER*/
+    header nav
+    {
+        float: right;
+    }
+    header nav ul li
+    {
+        padding: 5px;
+        margin: 0px 20px 0px 0px;
+        font-size: 20px
+    }
+    nav ul li a:hover
+{
+    background: azure;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    }
+    header #logo
+    {
+      position: absolute;
+        top: 0px;
+        left: 5%
+    }
+    .active
+   {
+    background: coral;
+    color: whitesmoke;
+    padding: 5px; 
+   }
+    
+  /*CONTACT PAGE*/
+    
+    
+    #contact-page
+{
+    width: 100%;
+    margin: 0;
+    height: 60vh;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+    
+    
+    /*SOCIAL*/
+    #contact-page .social-media
+{
+    width:50%;
+    position: absolute;
+    top: 17%;
+    left: 12%
+}
+    #contact-page .social-media a
+{
+    display: block;
+    color: whitesmoke;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+    font-size: 25px;
+    
+}
+    
+ #contact-page .social-media h3
+{
+    color: aquamarine;
+    margin: 15px 0px;
+    padding: 0px;
+    font-size: 25px;
+    font-family: monospace;     
+} 
+    #contact-page .social-media a:hover
+{
+    color: coral;
+    font-size: 30px;
+    transition: 0.5s;
+}
+    
+    
+  /*OFFICIAL*/
+#contact-page .official
+{
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 17%;
+}  
+    
+ #contact-page .official input
+{
+    margin: 0px 0px 5px 0px;
+    padding: 5px
+}   
+    
+ #contact-page .official h3
+{
+    color: aquamarine;
+    margin: 15px 0px;
+    padding: 0px;
+    font-size: 25px;
+    font-family: monospace;
+} 
+      #contact-page .official button
+{
+    padding: 9px;
+    background: coral;
+    border-radius: 4px;
+    margin-right:20%;
+    border: none;
+} 
+    
+ 
+    
+    
+    
+    
+    /*FOOTER*/
+    
+
+        footer
+{
+    position: relative;
+    bottom: 0%;
+    background: #000;
+    width: 100%;
+    height: 20vh;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;    
+}
+    
+  footer #logo
+{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}  
+    
+  footer .copy-right
+{
+    text-align: center;
+    margin: 5px;
+    padding: 0px;
+    color: aliceblue
+}  
+    
+    
+ footer .comment button
+{
+    margin-right: 37%;
+    padding: 4px;
+    background: coral;
+    border-radius: 4px;
+    border: none;
+    
+}   
+    
+    
+    footer .comment h2
+{
+    font-size: 12px;
+    margin: 0px 0px 3px 0px;
+    color: aquamarine;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+    
+    /*INDEX PAGE COVER*/
+    
+  .cover
+{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover h1
+{
+    color: coral;
+   position: absolute;
+    left: 35%;
+    top: 20%;
+    font-weight: 300;
+    font-family: cursive, sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.cover p
+{
+    color: whitesmoke;
+   position: absolute;
+    top: 35%;
+    left: 10%;
+    max-width: 80%;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 1rem;
+    
+}
+
+.cover .button
+{
+    color: whitesmoke;
+    background: coral;
+    position: absolute;
+    top: 64%;
+    left: 15%;
+    margin: 10px;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 4px;
+}  
+    
+    
+    
+    
+    
+              /*ENTERTAINMENT PAGE*/
+
+
+#entertainment
+{
+    width: 100%;
+    height: 100%;
+    background: white;
+        
+}
+                
+
+          /*IMAGE GALLERY*/
+
+
+#entertainment .photo-gallery img
+{
+    width:200px;
+    height: 350px;
+    margin: 5px;
+}
+#entertainment .photo-gallery h2
+{
+    color: whitesmoke;
+    position: absolute;
+    top:10%;
+    left: 5%;
+    font-size: 15px;
+    font-family: serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px;
+    border-bottom: 3px solid lightskyblue;
+    border-right: 3px solid lightskyblue;
+}
+
+#entertainment .photo-gallery img:hover
+{
+    width:220px;
+    height: 370px;
+    background: #0005;
+    box-shadow: 0px 0px 10px;
+    transition: 0.5s;
+}
+
+
+               /*VIDEO GALLERY*/
+
+
+#entertainment .vid-gallery video
+{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 10px;
+   
+}
+
+#entertainment .vid-gallery .vid
+{
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    margin-top: 3%;
+    justify-items: center;
+}
+
+
+#entertainment .vid-gallery h5
+{
+    color:black;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: 100;
+    position: relative;
+    left: 10%;
+    width: 20%;
+    text-align: center;
+    border-bottom: 3px solid whitesmoke;
+    border-right: 3px solid whitesmoke;
+    padding: 10px;
+    box-shadow: 0px 0px 10px;
+}
+
+#entertainment .vid-gallery video:hover
+{
+    width: 320px;
+    height: 320px;
+    background: #000;
+    transition: 0.5s;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+@media only screen and (max-width: 700px)
+{
+    /*HEADER*/
+    header nav
+    {
+        float: none;
+    }
+    header nav ul li
+    {
+        padding: 0px;
+        margin: 30px 20px 0px 0px;
+        font-size: 15px
+    }
+    nav ul li a:hover
+{
+    background: azure;
+    padding: 5px;
+    cursor: pointer;
+    color: black;
+    }
+    header #logo
+    {
+      position: absolute;
+        top: 0px;
+        left: 20%
+    }
+    .active
+   {
+    background: coral;
+    color: whitesmoke;
+    padding: 5px; 
+   }
+    
+  /*CONTACT PAGE*/
+    
+    
+    #contact-page
+{
+    width: 100%;
+    margin: 0;
+    height: 40vh;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+    
+    
+    /*SOCIAL*/
+    #contact-page .social-media
+{
+    width:50%;
+    position: absolute;
+    top: 17%;
+    left: 5%
+}
+    #contact-page .social-media a
+{
+    display: block;
+    color: whitesmoke;
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    font-size: 15px;
+    
+}
+    
+ #contact-page .social-media h3
+{
+    color: aquamarine;
+    margin: 15px 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: monospace;     
+} 
+    #contact-page .social-media a:hover
+{
+    color: coral;
+    font-size: 20px;
+    transition: 0.5s;
+}
+    
+    
+  /*OFFICIAL*/
+#contact-page .official
+{
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 17%;
+}  
+    
+ #contact-page .official input
+{
+    margin: 0px 0px 20px 0px;
+    padding: 10px
+}   
+    
+ #contact-page .official h3
+{
+    color: aquamarine;
+    margin: 15px 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: monospace;
+}   
+    
+ 
+    
+    
+    
+    /*FOOTER*/
+    
+
+        footer
+{
+    position: relative;
+    bottom: 0%;
+    background: #000;
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+    align-content: center;    
+}
+    
+  footer #logo
+{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}  
+    
+  footer .copy-right
+{
+    text-align: center;
+    margin: 5px;
+    padding: 0px;
+    color: aliceblue
+}  
+    
+    
+ footer .comment button
+{
+    margin-right: 25%;
+    padding: 4px;
+    background: coral;
+    border-radius: 4px;
+    border: none;
+    
+}   
+    
+    
+    footer .comment h2
+{
+    font-size: 12px;
+    margin: 0px 0px 3px 0px;
+    color: aquamarine;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+    
+    
+    /*INDEX PAGE COVER*/
+    
+    .cover
+{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover h1
+{
+    color: coral;
+   position: absolute;
+    left: 30%;
+    top: 18%;
+    font-weight: 300;
+    font-family: cursive, sans-serif;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.cover p
+{
+    color: whitesmoke;
+   position: absolute;
+    top: 25%;
+    left: 10%;
+    max-width: 80%;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 0.8rem;
+    
+}
+
+.cover .button
+{
+    color: whitesmoke;
+    background: coral;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+    
+    
+    
+              /*ENTERTAINMENT PAGE*/
+    
+     /*IMAGE GALLERY*/
+
+#entertainment .photo
+{
+    width: 60%;
+    height: 25%;
+    justify-content: center;
+}
+
+#entertainment .photo-gallery img
+{
+    width:250px;
+    height: 300px;
+    margin: 10px;
+}
+#entertainment .photo-gallery h2
+{
+    color: whitesmoke;
+    position: absolute;
+    top:15%;
+    left: 5%;
+    font-size: 15px;
+    font-family: serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px;
+    border-bottom: 3px solid lightskyblue;
+    border-right: 3px solid lightskyblue;
+}
+
+#entertainment .photo-gallery img:hover
+{
+    width:270px;
+    height: 320px;
+    background: #0005;
+    box-shadow: 0px 0px 10px;
+    transition: 0.5s;
+}
+
+
+               /*VIDEO GALLERY*/
+
+
+#entertainment .vid-gallery video
+{
+    width: 200px;
+    height: 300px;
+    box-shadow: 0px 0px 10px;
+   
+}
+
+#entertainment .vid-gallery .vid
+{
+    width: 60%;
+    height: 25%;
+    margin-top: 5%;
+    justify-items: center;
+}
+
+
+#entertainment .vid-gallery h5
+{
+    color:black;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 200;
+    position: relative;
+    left: 10%;
+    width: 20%;
+    text-align: center;
+    border-bottom: 3px solid whitesmoke;
+    border-right: 3px solid whitesmoke;
+    padding: 10px;
+    box-shadow: 0px 0px 10px;
+}
+
+#entertainment .vid-gallery video:hover
+{
+    width: 220px;
+    height: 320px;
+    background: #000;
+    transition: 0.5s;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
