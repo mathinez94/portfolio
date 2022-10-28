@@ -149,6 +149,14 @@ nav ul li a:hover
     cursor: pointer;
 }
 
+iframe
+{
+   position: relative;
+   height: 350px;
+   width: 80%;
+   left: 10%;
+}
+
 /*FOOTER*/
 footer
 {
